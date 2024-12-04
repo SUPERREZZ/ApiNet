@@ -1,0 +1,6 @@
+@Tugas3_Api_reza_HostAddress = http://localhost:4000
+
+GET {{Tugas3_Api_reza_HostAddress}}/tugas3/
+Accept: application/json
+
+###

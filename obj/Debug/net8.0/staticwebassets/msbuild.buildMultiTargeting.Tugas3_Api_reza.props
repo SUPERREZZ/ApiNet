@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tugas3_Api_reza.props" />
+</Project>

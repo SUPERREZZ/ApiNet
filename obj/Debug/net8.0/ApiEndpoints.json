@@ -1,0 +1,226 @@
+[
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SekolahController",
+    "Method": "GetSekolah",
+    "RelativePath": "api/Sekolah",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Tugas3_Api_reza.Models.AsalSekolah, Tugas3_Api_reza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SekolahController",
+    "Method": "CreateSekolah",
+    "RelativePath": "api/Sekolah",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sekolahCreate",
+        "Type": "Tugas3_Api_reza.Models.SekolahDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SekolahController",
+    "Method": "GetSekolahByID",
+    "RelativePath": "api/Sekolah/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Tugas3_Api_reza.Models.AsalSekolah",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SekolahController",
+    "Method": "UpdateSekolah",
+    "RelativePath": "api/Sekolah/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sekolahUpdate",
+        "Type": "Tugas3_Api_reza.Models.SekolahDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SekolahController",
+    "Method": "DeleteSekolah",
+    "RelativePath": "api/Sekolah/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SiswaController",
+    "Method": "GetSiswa",
+    "RelativePath": "api/Siswa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Tugas3_Api_reza.Models.Siswa, Tugas3_Api_reza, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SiswaController",
+    "Method": "CreateSiswa",
+    "RelativePath": "api/Siswa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "siswaCreate",
+        "Type": "Tugas3_Api_reza.Models.SiswaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SiswaController",
+    "Method": "GetSiswaByID",
+    "RelativePath": "api/Siswa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Tugas3_Api_reza.Models.Siswa",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SiswaController",
+    "Method": "UpdateSiswa",
+    "RelativePath": "api/Siswa/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "siswaUpdate",
+        "Type": "Tugas3_Api_reza.Models.SiswaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SiswaController",
+    "Method": "DeleteSiswa",
+    "RelativePath": "api/Siswa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tugas3_Api_reza.Controllers.SekolahController",
+    "Method": "GetJumlahSiswaByIDSekolah",
+    "RelativePath": "JumlahSiswa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Tugas3_Api_reza.Models.JumlahSiswaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
